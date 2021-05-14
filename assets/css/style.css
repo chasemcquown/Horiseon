@@ -8,7 +8,7 @@ body {
   background-color: #d9dcd6;
 }
 
-.header {
+header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -16,7 +16,7 @@ body {
   color: #ffffff;
 }
 
-.header h1 {
+header h1 {
   display: inline-block;
   font-size: 48px;
 }
@@ -26,7 +26,8 @@ span {
   color: #d9dcd6;
 }
 
-.header div {
+/* removed the period (.) before all header selectors since I made the div= "header" into an actual header tag */
+header div {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -34,11 +35,11 @@ span {
   font-size: 20px;
 }
 
-.header div ul {
+header div ul {
   list-style-type: none;
 }
 
-.header div ul li {
+header div ul li {
   display: inline-block;
   margin-left: 25px;
 }
@@ -235,7 +236,7 @@ article {
   font-size: 36px;
 }
 
-.footer {
+footer {
   padding: 30px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -243,6 +244,6 @@ article {
   text-align: center;
 }
 
-.footer h2 {
+footer h2 {
   font-size: 20px;
 }
